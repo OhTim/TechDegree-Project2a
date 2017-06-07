@@ -56,6 +56,10 @@ footer {
   padding: 0;
 }
 
+.main-nav a:hover {
+   color: #bed8ea;
+}
+
 .main-nav a {
   background-color: #fff;
   display: block;
@@ -181,6 +185,10 @@ footer {
   margin: 0 5px;
   padding: 10px 5px;
   text-transform: uppercase;
+}
+
+.footer-nav a:hover {
+   color: #bed8ea;
 }
 
 .desktop {
