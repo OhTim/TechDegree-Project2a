@@ -1,6 +1,5 @@
 /* Base Styles ----------------------*/
 
-font-family: 'Open Sans', sans-serif;
 
 *{
   box-sizing: border-box;
@@ -19,7 +18,7 @@ body {
   min-width: 300px;
   width: auto !important;  /* Firefox will set width as auto */
   width:1000px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
 }
 
 footer {
@@ -99,7 +98,6 @@ footer {
 .sub-header {
   font-weight: 700;
   margin: 15px 0px 0px;
-  font-style: bold;
 }
 
 .sub-text {
@@ -162,7 +160,6 @@ footer {
 .footer-nav a {
   color: white;
   font-size: 1.2em;
-  font-style: bold;
   font-weight: 800;
   margin: 0 5px;
   padding: 10px 5px;
@@ -185,7 +182,6 @@ footer {
 #portfolio {
   font-size: 1.5em;
   text-transform: uppercase;
-  font-style: bold;
   display: inline-block;
   border-bottom: 2px solid grey;
 }
@@ -201,6 +197,7 @@ footer {
 
 @media (min-width: 768px) {
 
+  /* Main-Nav ----*/
   .main-nav li {
     display: inline-block;
   }
@@ -210,7 +207,7 @@ footer {
     color: white;
     font-size: 1.6em;
   }
-
+  /* Intro ----*/
   .intro-text {
     text-align: left;
     font-size: 1.1em;
@@ -225,7 +222,7 @@ footer {
     float: right;
     width: 35%;
   }
-
+  /* Main-Content ----*/
   #portfolio {
     display: block;
     border-bottom: none;
@@ -241,6 +238,7 @@ footer {
   .primary-list li:nth-child(2n+1){
     clear: both;
 }
+  /* Footer ----*/
   .main-footer {
     font-size: 1.1em;
   }
@@ -262,9 +260,9 @@ footer {
   .desktop {
     display: inline-block;
   }
-
+}
 @media (min-width: 1024px) {
-
+  /* Main-Nav ----*/
     .name {
       float: left;
     }
@@ -280,6 +278,7 @@ footer {
       text-align: center;
       margin: 0 auto;
     }
+    /* Main-Content ----*/
 
     .primary-list li {
       width: 30%;
@@ -299,7 +298,6 @@ footer {
       text-transform: none;
       font-size: 2.2em;
       font-weight: 500;
-      font-style: bold;
     }
 
     .sub-header {
@@ -309,3 +307,4 @@ footer {
     .sub-text {
       font-size: 1.2em;
     }
+}
